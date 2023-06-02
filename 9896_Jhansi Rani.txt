@@ -1,0 +1,35 @@
+package samplemethods;
+
+public class TestProgram
+{
+public String myName()
+	{
+		System.out.println("myName");
+		return"java";
+	}
+public int addition ()
+{
+	System.out.println("addition");
+	
+	return 4422;
+}
+
+public float calCulation()
+{
+	System.out.println("calCulation");
+	return(float)0.99;
+}
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		
+		TestProgram T = new TestProgram();
+		
+		T.myName();
+		T.addition();
+		T.calCulation();
+		System.out.println("hello");
+		 
+	}
+
+}
